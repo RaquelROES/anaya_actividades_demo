@@ -970,6 +970,30 @@
 }
 
 
+#actividad .content .review .attemps span {
+    background-color: #005ea8;
+}
+
+#actividad .content .review .attemps {
+	margin-left: 0px;
+    color: transparent;
+}
+
+.btn-reset{
+    color: transparent;
+    background-color: transparent;
+    border-color: transparent;
+    padding: 0px;
+    width: 45px;
+    height: 45px;
+    border-radius: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://raw.githubusercontent.com/RaquelROES/anaya_actividades_demo/master/images/4_reiniciar_default.png);
+    box-shadow: none;
+    margin-left: 45px;
+}
+
 
 @media screen and (max-width: 1099px) {
 	.body_clase,
