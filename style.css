@@ -20,21 +20,21 @@
 		display: none;
 	}
 
-	.is_app.content_type_clase_anaya {
+	.is_app.content_type_clase_anaya_actividades_demo {
 		padding-top: 0px;
 	}
 
-	.is_app.content_type_clase_anaya:not(.offline-pc) .content-wrapper {
+	.is_app.content_type_clase_anaya_actividades_demo:not(.offline-pc) .content-wrapper {
 		top: 55px;
 	}
 
-	.content_type_clase_anaya #actividad {
+	.content_type_clase_anaya_actividades_demo #actividad {
 		margin-bottom: 0px;
 		-webkit-transform: none;
 		-webkit-transform-style: flat;
 	}
 
-	.content_type_clase_anaya .slide-wrapper,
+	.content_type_clase_anaya_actividades_demo .slide-wrapper,
 	.cke_contents {
 		text-align: justify;
 	}
@@ -47,16 +47,16 @@
 		position: relative;
 	}
 
-	.content_type_clase_anaya #actividad .content .header .title img,
-	.content_type_clase_anaya #actividad .content .header .chapter {
+	.content_type_clase_anaya_actividades_demo #actividad .content .header .title img,
+	.content_type_clase_anaya_actividades_demo #actividad .content .header .chapter {
 		display: none;
 	}
 
-	.content_type_clase_anaya #actividad .content .header {
+	.content_type_clase_anaya_actividades_demo #actividad .content .header {
 		border: none;
 	}
 
-	.content_type_clase_anaya #actividad .content .header .title h3 {
+	.content_type_clase_anaya_actividades_demo #actividad .content .header .title h3 {
 		font-size: 3.1rem;
 		margin-top: 0px;
 		font-weight: bold;
@@ -65,19 +65,19 @@
 		display: block;
 	}
 
-	.content_type_clase_anaya #actividad .content .header .title h3 .competencias {
+	.content_type_clase_anaya_actividades_demo #actividad .content .header .title h3 .competencias {
 		color: #dda0dd;
 	}
 
-	.content_type_clase_anaya #actividad .content .header .title h3 .repaso {
+	.content_type_clase_anaya_actividades_demo #actividad .content .header .title h3 .repaso {
 		color: #8CC63F;
 	}
 
-	.content_type_clase_anaya #actividad .content .header .title h3 .aprendo {
+	.content_type_clase_anaya_actividades_demo #actividad .content .header .title h3 .aprendo {
 		color: #0E71C2;
 	}
 
-	.content_type_clase_anaya #actividad .content .header .title h3 .repaso-trimestral {
+	.content_type_clase_anaya_actividades_demo #actividad .content .header .title h3 .repaso-trimestral {
 		display: block;
 		background: #00aee2; /* Old browsers */
 		background: -moz-linear-gradient(left,  #00aee2 0%, #c5ca2f 36%, #f5cb0d 58%, #f0629d 100%, #7db9e8 100%, #f0629d 101%); /* FF3.6+ */
@@ -90,13 +90,13 @@
 		color: #FFF;
 	}
 
-	.content_type_clase_anaya #actividad .texto_curso {
+	.content_type_clase_anaya_actividades_demo #actividad .texto_curso {
 		font-size: 1.9rem;
 		line-height: 2.1rem;
 	}
 
-	.content_type_clase_anaya #actividad .texto_curso li,
-	.content_type_clase_anaya #actividad .workspace ul li li {
+	.content_type_clase_anaya_actividades_demo #actividad .texto_curso li,
+	.content_type_clase_anaya_actividades_demo #actividad .workspace ul li li {
 		margin-bottom: 10px;
 	}
 
@@ -116,7 +116,7 @@
 	    padding-bottom: 100px;
 	}
 
-	.content_type_clase_anaya .slide_main input {
+	.content_type_clase_anaya_actividades_demo .slide_main input {
 		color: #555;
 		background-color: #fff;
 		background-image: none;
@@ -128,7 +128,7 @@
 		transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 	}
 
-	.content_type_clase_anaya .slide_main input:focus {
+	.content_type_clase_anaya_actividades_demo .slide_main input:focus {
 		border-top-color: #85c939;
 		border-right-color: #85c939;
 		border-bottom-color: #85c939;
@@ -138,25 +138,25 @@
 		box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0.6);
 	}
 
-	.content_type_clase_anaya .slide_main input[disabled],
-	.content_type_clase_anaya .slide_main input[readonly],
-	fieldset[disabled] .content_type_clase_anaya .slide_main input {
+	.content_type_clase_anaya_actividades_demo .slide_main input[disabled],
+	.content_type_clase_anaya_actividades_demo .slide_main input[readonly],
+	fieldset[disabled] .content_type_clase_anaya_actividades_demo .slide_main input {
 		cursor: not-allowed;
 		background-color: #eee;
 		opacity: 1;
 	}
 
-	.content_type_clase_anaya .slide_main input.respuesta_ok {
+	.content_type_clase_anaya_actividades_demo .slide_main input.respuesta_ok {
 		border-color: #57e900;
 		background: #D1F3BD;
 	}
 
-	.content_type_clase_anaya .slide_main input.respuesta_ko {
+	.content_type_clase_anaya_actividades_demo .slide_main input.respuesta_ko {
 		border-color: #FF3626;
 		background: #FFA49D;
 	}
 
-	.content_type_clase_anaya .slide_main input.solucion {
+	.content_type_clase_anaya_actividades_demo .slide_main input.solucion {
 		border-color: #00BDFF;
 		background: #B6ECFF;
 	}
@@ -190,7 +190,7 @@
 	#indice .units ul li.active,
 	body:not(.isTablet) #indice .units ul li:hover,
 	#indice .units ul li:focus {
-		background: #90cb51 ;
+		background: #dee7f2 ;
 	}
 
 	#indice .units ul li:not(.add) a .title {
@@ -205,7 +205,7 @@
 /**/
 
 /* Navbar (Breadcums) */
-	.content_type_clase_anaya .anaya-navbar {
+	.content_type_clase_anaya_actividades_demo .anaya_actividades_demo-navbar {
 		position: fixed;
 		top: 44px;
 		background-color: #7aac39;
@@ -214,7 +214,7 @@
 		z-index: 100;
 	}
 
-	.is_app.content_type_clase_anaya .anaya-navbar {
+	.is_app.content_type_clase_anaya_actividades_demo .anaya_actividades_demo-navbar {
 		position: sticky;
 		top: 0px;
 	}
@@ -225,14 +225,14 @@
 		position: relative;
 	}
 
-	.content_type_clase_anaya .anaya-navbar .navbar-content {
+	.content_type_clase_anaya_actividades_demo .anaya_actividades_demo-navbar .navbar-content {
 		max-width: 960px;
 		margin: 0 auto;
 		padding-left: 90px;
 		padding-right: 50px;
 	}
 
-	.content_type_clase_anaya .navbar-content:before {
+	.content_type_clase_anaya_actividades_demo .navbar-content:before {
 		content: " ";
 		background-image: url(logo.png);
 		height: 35px;
@@ -243,7 +243,7 @@
 		float: left;
 	}
 
-	.content_type_clase_anaya .slider-indicators {
+	.content_type_clase_anaya_actividades_demo .slider-indicators {
 		padding: 10px 0px;
 		display: inline-block;
 		text-align: left;
@@ -254,8 +254,8 @@
 		z-index: 0;
 	}
 
-	.content_type_clase_anaya .anaya-navbar .dropdown button,
-	.content_type_clase_anaya .anaya-navbar li {
+	.content_type_clase_anaya_actividades_demo .anaya_actividades_demo-navbar .dropdown button,
+	.content_type_clase_anaya_actividades_demo .anaya_actividades_demo-navbar li {
 		border-radius: 5px;
 		border: none;
 		background-color: white;
@@ -269,7 +269,7 @@
 		cursor: pointer;
 	}
 
-	.content_type_clase_anaya .slider-indicators li {
+	.content_type_clase_anaya_actividades_demo .slider-indicators li {
 		width: 35px;
 		height: 35px;
 		background-color: #DDD;
@@ -277,24 +277,24 @@
 		text-align: center;
 	}
 
-	.content_type_clase_anaya .slider-indicators li.active,
-	.content_type_clase_anaya .anaya-navbar li:hover {
+	.content_type_clase_anaya_actividades_demo .slider-indicators li.active,
+	.content_type_clase_anaya_actividades_demo .anaya_actividades_demo-navbar li:hover {
 		background-color: #FFF;
 	}
 
-	.content_type_clase_anaya .anaya-navbar .dropdown button {
+	.content_type_clase_anaya_actividades_demo .anaya_actividades_demo-navbar .dropdown button {
 		width: auto;
 		padding: 0px 10px;
 	}
 
-	/*.content_type_clase_anaya .slider-indicators li:first-of-type {
+	/*.content_type_clase_anaya_actividades_demo .slider-indicators li:first-of-type {
 		width: auto;
 		padding: 0px 10px;
 	}*/
 
 
 
-	.content_type_clase_anaya .anaya-navbar .dropdown {
+	.content_type_clase_anaya_actividades_demo .anaya_actividades_demo-navbar .dropdown {
 		display: block;
 		float: left;
 		margin-top: 10px;
@@ -306,30 +306,30 @@
 		overflow-y: auto;
 	}
 
-	.content_type_clase_anaya .anaya-navbar .dropdown button {
+	.content_type_clase_anaya_actividades_demo .anaya_actividades_demo-navbar .dropdown button {
 		border: none;
 	}
 
-	.content_type_clase_anaya .anaya-navbar .dropdown button:focus {
+	.content_type_clase_anaya_actividades_demo .anaya_actividades_demo-navbar .dropdown button:focus {
 		outline: none;
 	}
 
-	.content_type_clase_anaya .anaya-navbar .dropdown li {
+	.content_type_clase_anaya_actividades_demo .anaya_actividades_demo-navbar .dropdown li {
 		display: list-item;
 		width: auto;
 	}
 
-	.content_type_clase_anaya .anaya-navbar .dropdown li a {
+	.content_type_clase_anaya_actividades_demo .anaya_actividades_demo-navbar .dropdown li a {
 		color: #7aac39;
 		font-weight: bold;
 	}
 
-	.content_type_clase_anaya .anaya-navbar .dropdown .caret {
+	.content_type_clase_anaya_actividades_demo .anaya_actividades_demo-navbar .dropdown .caret {
 		border-color: #7aac39 transparent transparent transparent;
 	}
 
-	.content_type_clase_anaya-eso .slider-indicators li:first-child span,
-	.content_type_clase_anaya-eso .dropdown li:first-child span.num {
+	.content_type_clase_anaya_actividades_demo-eso .slider-indicators li:first-child span,
+	.content_type_clase_anaya_actividades_demo-eso .dropdown li:first-child span.num {
 		font-family: "Palatino Linotype", Times;
 	}
 
@@ -418,7 +418,7 @@
 /**/
 
 /* CKEDITOR */
-	.anaya-box {
+	.anaya_actividades_demo-box {
 		background-color: rgba(122, 172, 57, .3);
 		text-align: justify;
 		line-height: 2.7rem;
@@ -428,34 +428,34 @@
 		width: 90%;
 	}
 
-	.anaya-box.center {
+	.anaya_actividades_demo-box.center {
 		text-align: center;
 	}
 
-	.anaya-box.left {
+	.anaya_actividades_demo-box.left {
 		float: left;
 		margin-right: 30px;
 	}
 
-	.anaya-box.right {
+	.anaya_actividades_demo-box.right {
 		float: right;
 		margin-left: 30px;
 	}
 
-	.anaya-box-white {
+	.anaya_actividades_demo-box-white {
 		background-color: white;
 		border-radius: 8px;
 		padding: 5px;
 		margin: 10px 5px;
 	}
 
-	.anaya-subtitle {
+	.anaya_actividades_demo-subtitle {
 		margin-left: 20px;
 		color: #7aac39;
 		font-size: 2.3rem;
 	}
 
-	.anaya-subtitle:before {
+	.anaya_actividades_demo-subtitle:before {
 		content: ' ';
 		height: 15px;
 		width: 15px;
@@ -466,21 +466,21 @@
 		margin-top: 6px;
 	}
 
-	.anaya-header {
+	.anaya_actividades_demo-header {
 		color: #f7903a;
 		font-size: 2.1rem;
 	}
 
-	.anaya-exercise {
+	.anaya_actividades_demo-exercise {
 		color: #0067b3;
 	}
 
-	.anaya-competencias-title {
+	.anaya_actividades_demo-competencias-title {
 		color: #dda0dd;
 		font-weight: 700;
 	}
 
-	.anaya-competencias-subtitle {
+	.anaya_actividades_demo-competencias-subtitle {
 		color: #dda0dd;
 	}
 
@@ -807,8 +807,8 @@
 		content: attr(start)".";
 	}
 
-	.content_type_clase_anaya #actividad .texto_curso ol[start] li,
-	.content_type_clase_anaya #actividad .workspace ul li ol[start] li {
+	.content_type_clase_anaya_actividades_demo #actividad .texto_curso ol[start] li,
+	.content_type_clase_anaya_actividades_demo #actividad .workspace ul li ol[start] li {
 	  margin-left: 4px;
 	}
 
@@ -867,7 +867,7 @@
 
 	/*lingua*/
 
-	.content_type_clase_anaya #actividad .content .lingua .title h3 {
+	.content_type_clase_anaya_actividades_demo #actividad .content .lingua .title h3 {
 		display: inline-block;
 		position: relative;
 		background: #FFCB08;
@@ -876,7 +876,7 @@
 		width: 300px;
 	}
 
-	.content_type_clase_anaya #actividad .content .lingua .title h3 span.index {
+	.content_type_clase_anaya_actividades_demo #actividad .content .lingua .title h3 span.index {
 	    position: absolute;
 		bottom: 10px;
 		left: 150%;
@@ -885,7 +885,7 @@
 		text-align: center;
 	}
 
-	.content_type_clase_anaya #actividad .content .lingua .title h3 span.index::before{
+	.content_type_clase_anaya_actividades_demo #actividad .content .lingua .title h3 span.index::before{
 		content: "";
 		position: absolute;
 		height: 100px;
