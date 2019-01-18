@@ -233,15 +233,15 @@
 	}
 
 	.content_type_clase_anaya_actividades_demo .navbar-content:before {
-		content: " ";
-		background-image: url(logo.png);
-		height: 35px;
-		background-size: cover;
-		width: 35px;
-		margin-left: -50px;
-		margin-top: 8px;
-		float: left;
-	}
+    content: " ";
+    background-image: url(images/logo.png);
+    height: 35px;
+    background-size: cover;
+    width: 35px;
+    margin-left: -50px;
+    margin-top: 8px;
+    float: left;
+}
 
 	.content_type_clase_anaya_actividades_demo .slider-indicators {
 		padding: 10px 0px;
