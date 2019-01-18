@@ -988,7 +988,7 @@
     color: transparent;
 }
 
-.btn-reset{
+.btn-reset, .btn-reset:hover, .btn-reset:active,  .btn-reset:focus{
     color: transparent;
     background-color: transparent;
     border-color: transparent;
@@ -1113,5 +1113,4 @@
     #actividad .carousel-inner .item-container {
 		padding: 40px 20px 90px;
 	}
-
 }
