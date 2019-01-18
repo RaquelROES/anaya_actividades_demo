@@ -1019,34 +1019,10 @@
 }
 
 
-.btn-primary[disabled], .btn-primary[disabled]:hover {
-    color: transparent;
-    background-color: transparent;
-    border-color: transparent;
-    padding: 0px;
-    width: 45px;
-    height: 45px;
-    border-radius: 0px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url(https://raw.githubusercontent.com/RaquelROES/anaya_actividades_demo/master/images/1_corregir.png);
-    box-shadow: none;
-
-}
-
 .btn-primary:hover{
     color: transparent;
     background-color: transparent;
     border-color: transparent;
-    padding: 0px;
-    width: 45px;
-    height: 45px;
-    border-radius: 0px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url(https://raw.githubusercontent.com/RaquelROES/anaya_actividades_demo/master/images/4_reiniciar_default.png);
-    box-shadow: none;
-    margin-left: 45px;
 }
 
 .foro_wiki_cke_text ul li:before, .texto_curso ul li:before, .workspace:not(.test) ul li ul li:before, .cke_contents ul li:before, .preview ul li:before, .classify-item ul li:before {
@@ -1055,7 +1031,7 @@
 
 
 .btn-save{
-     color: #fff;
+    color: #fff;
     background-color: #fc4237;
     border-color: transparent;
     color: transparent;
