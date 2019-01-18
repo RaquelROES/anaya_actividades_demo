@@ -901,6 +901,42 @@
 
 /***/
 
+
+
+
+/**propio del estilo**/
+#actividad .player.audio, #actividad .player.video, #help-panel-content .player, #remote-alert-modal-rich .player {
+    background-color: #005ea8;
+}
+
+.btn-solution, .btn-solution.disabled, .btn-solution[disabled], .btn-next, .btn-next.disabled, .btn-next[disabled] {
+    color: transparent;
+    background-color: transparent;
+    border-color: transparent;
+    padding: 0px;
+    width: 45px;
+    height: 45px;
+    border-radius: 0px;
+    background-size: contain;
+    background-image: url(https://raw.githubusercontent.com/RaquelROES/anaya_actividades_demo/master/images/2_solucion_hover.png);
+}
+
+
+.btn-solution:hover, .btn-solution:focus, .btn-solution:active, .btn-next:hover, .btn-next:focus, .btn-next:active, .open .dropdown-toggle.btn-solution {
+    color: transparent;
+    background-color: transparent;
+    border-color: transparent;
+    padding: 0px;
+    width: 45px;
+    height: 45px;
+    border-radius: 0px;
+    background-size: contain;
+    background-image: url(https://raw.githubusercontent.com/RaquelROES/anaya_actividades_demo/master/images/2_solucion_hover.png);
+}
+
+
+
+
 @media screen and (max-width: 1099px) {
 	.body_clase,
 	.carousel-inner {
