@@ -1003,6 +1003,22 @@
     margin-left: 45px;
 }
 
+.btn-reset .btn-primary{
+    color: transparent;
+    background-color: transparent;
+    border-color: transparent;
+    padding: 0px;
+    width: 45px;
+    height: 45px;
+    border-radius: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://raw.githubusercontent.com/RaquelROES/anaya_actividades_demo/master/images/4_reiniciar_default.png);
+    box-shadow: none;
+    margin-left: 45px;
+}
+
+
 .btn-primary[disabled], .btn-primary[disabled]:hover {
     color: transparent;
     background-color: transparent;
@@ -1121,4 +1137,5 @@
     #actividad .carousel-inner .item-container {
 		padding: 40px 20px 90px;
 	}
+
 }
