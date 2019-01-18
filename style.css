@@ -1015,6 +1015,11 @@
     margin-left: 45px;
 }
 
+.foro_wiki_cke_text ul li:before, .texto_curso ul li:before, .workspace:not(.test) ul li ul li:before, .cke_contents ul li:before, .preview ul li:before, .classify-item ul li:before {
+    background-color: #005ea8;
+}
+
+
 
 @media screen and (max-width: 1099px) {
 	.body_clase,
