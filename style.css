@@ -1020,6 +1020,22 @@
 }
 
 
+.btn-save{
+     color: #fff;
+    background-color: #fc4237;
+    border-color: transparent;
+    color: transparent;
+    background-color: transparent;
+    border-color: transparent;
+    width: 45px;
+    height: 45px;
+    border-radius: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://raw.githubusercontent.com/RaquelROES/anaya_actividades_demo/master/images/1_corregir.png);
+    box-shadow: none;
+}
+
 
 @media screen and (max-width: 1099px) {
 	.body_clase,
