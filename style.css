@@ -939,7 +939,7 @@
 
 .btn-primary[disabled], .btn-primary[disabled]:hover {
     color: transparent;
-    background-color: darkgreen;
+    background-color: transparent;
     border-color: transparent;
 }
 
