@@ -919,6 +919,7 @@
     border-radius: 0px;
     background-size: contain;
     background-image: url(https://raw.githubusercontent.com/RaquelROES/anaya_actividades_demo/master/images/2_solucion_hover.png);
+    box-shadow: none;
 }
 
 
@@ -931,6 +932,7 @@
     height: 45px;
     border-radius: 0px;
     background-size: contain;
+    box-shadow: none;
     background-image: url(https://raw.githubusercontent.com/RaquelROES/anaya_actividades_demo/master/images/2_solucion_hover.png);
 }
 
@@ -944,7 +946,8 @@
     height: 45px;
     border-radius: 0px;
     background-size: contain;
-    background-image: url(https://raw.githubusercontent.com/RaquelROES/anaya_actividades_demo/images/1_solucion_active.png);
+    box-shadow: none;
+    background-image: url(https://raw.githubusercontent.com/RaquelROES/anaya_actividades_demo/master/images/1_solucion_active.png);
 }
 
 
