@@ -923,7 +923,7 @@
 }
 
 
-.btn-solution:hover, .btn-solution:focus, .btn-next:hover, .btn-next:focus, .btn-next:active, .open .dropdown-toggle.btn-solution {
+.btn-solution:hover,.btn-solution:active,.btn-solution:focus, .btn-next:hover, .btn-next:focus, .btn-next:active, .open .dropdown-toggle.btn-solution {
     color: transparent;
     background-color: transparent;
     border-color: transparent;
@@ -936,19 +936,6 @@
     background-image: url(https://raw.githubusercontent.com/RaquelROES/anaya_actividades_demo/master/images/2_solucion_hover.png);
 }
 
-
-.btn-solution:active {
-    color: transparent;
-    background-color: transparent;
-    border-color: transparent;
-    padding: 0px;
-    width: 45px;
-    height: 45px;
-    border-radius: 0px;
-    background-size: contain;
-    box-shadow: none;
-    background-image: url(https://raw.githubusercontent.com/RaquelROES/anaya_actividades_demo/master/images/1_solucion_active.png);
-}
 
 
 @media screen and (max-width: 1099px) {
