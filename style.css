@@ -988,7 +988,7 @@
     color: transparent;
 }
 
-.btn-reset, .btn-reset:hover, .btn-reset:focus, .btn-reset:active,{
+.btn-reset{
     color: transparent;
     background-color: transparent;
     border-color: transparent;
