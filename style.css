@@ -1087,6 +1087,10 @@
     .ipad #actividad .carousel-inner .item-container {
   		border-right: 1px solid #eee;
     }
+
+   #actividad .class_slide .review {
+    margin-left: 0px;
+}
 }
 
 @media screen and (max-width: 768px) {
@@ -1105,9 +1109,18 @@
 	.bck-img.left, img[style~="float:left"] {
 		max-width: 50%
 	}
+
+	#actividad .class_slide .review {
+    margin-left: 0px;
+    }
+
 }
 
 @media screen and (max-width: 480px) {
+
+	#actividad .class_slide .review {
+    margin-left: 0px;
+}
 
     .bck-img.right, img[style~="float:right"] {
         width: 100%;
@@ -1120,4 +1133,5 @@
     #actividad .carousel-inner .item-container {
 		padding: 40px 20px 90px;
 	}
+
 }
