@@ -905,6 +905,14 @@
 
 
 /**propio del estilo**/
+
+#actividad .class_slide .review {
+    margin-top: 40px;
+    margin-left: 45px;
+    text-align: center;
+}
+
+
 #actividad .player.audio, #actividad .player.video, #help-panel-content .player, #remote-alert-modal-rich .player {
     background-color: #005ea8;
 }
