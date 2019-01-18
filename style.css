@@ -1105,7 +1105,6 @@
 	.bck-img.left, img[style~="float:left"] {
 		max-width: 50%
 	}
-
 }
 
 @media screen and (max-width: 480px) {
@@ -1121,5 +1120,4 @@
     #actividad .carousel-inner .item-container {
 		padding: 40px 20px 90px;
 	}
-
 }
