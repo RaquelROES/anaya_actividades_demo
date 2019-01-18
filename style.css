@@ -936,6 +936,40 @@
     background-image: url(https://raw.githubusercontent.com/RaquelROES/anaya_actividades_demo/master/images/2_solucion_hover.png);
 }
 
+.btn-danger, .btn-danger[disabled] {
+    color: #fff;
+    background-color: #fc4237;
+    border-color: transparent;
+    color: transparent;
+    background-color: transparent;
+    border-color: transparent;
+    padding: 0px;
+    width: 35px;
+    height: 35px;
+    border-radius: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://raw.githubusercontent.com/RaquelROES/anaya_actividades_demo/master/images/1_corregir.png);
+    box-shadow: none;
+}
+
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open .dropdown-toggle.btn-danger{
+    color: #fff;
+    background-color: #fc4237;
+    border-color: transparent;
+    color: transparent;
+    background-color: transparent;
+    border-color: transparent;
+    padding: 0px;
+    width: 35px;
+    height: 35px;
+    border-radius: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://raw.githubusercontent.com/RaquelROES/anaya_actividades_demo/master/images/1_corregir.png);
+    box-shadow: none;
+}
+
 
 
 @media screen and (max-width: 1099px) {
