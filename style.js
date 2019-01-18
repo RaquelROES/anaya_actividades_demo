@@ -9,16 +9,16 @@
 	AnayaStyle.prototype = {
 		//BK-15873 aÃ±adimos el estilo basic como parent para la herencia de los estilos del CKEditor
 		parent: blink.theme.styles.basic.prototype,
-		bodyClassName: 'content_type_clase_anaya',
+		bodyClassName: 'content_type_clase_anaya_actividades_demo',
 		toolbar: { name: 'editorial', items: ['Blink_wrapper', 'Blink_aside', 'Blink_custom_lists'] },
 		extraPlugins: ['image2', 'blink_wrapper', 'blink_aside', 'blink_custom_lists'],
 		ckEditorStyles: {
-			name: 'anaya',
+			name: 'anaya_actividades_demo',
 			styles: [
-				{ name: 'subtitle', element: 'h4', attributes: { 'class': 'anaya-subtitle'} },
-				{ name: 'header', element: 'h6', attributes: { 'class': 'anaya-header'} },
-				{ name: 'competencias subtitle', element: 'h6', attributes: { 'class': 'anaya-competencias-subtitle'} },
-				{ name: 'ejercicio', element: ['p', 'li'], attributes: { 'class': 'anaya-exercise' } },
+				{ name: 'subtitle', element: 'h4', attributes: { 'class': 'anaya_actividades_demo-subtitle'} },
+				{ name: 'header', element: 'h6', attributes: { 'class': 'anaya_actividades_demo-header'} },
+				{ name: 'competencias subtitle', element: 'h6', attributes: { 'class': 'anaya_actividades_demo-competencias-subtitle'} },
+				{ name: 'ejercicio', element: ['p', 'li'], attributes: { 'class': 'anaya_actividades_demo-exercise' } },
 
 				{ name: 'box-center', type: 'widget', widget: 'blink_wrapper', attributes: { 'class': 'center' } },
 				{ name: 'aside-right', type: 'widget', widget: 'blink_aside', attributes: { 'class': 'right' } },
@@ -155,7 +155,7 @@
 					'</div>';
 
 			$navbarBottom
-				.attr('class', 'anaya-navbar')
+				.attr('class', 'anaya_actividades_demo-navbar')
 				.wrapInner('<div class="navbar-content"></div>')
 				.find('ol')
 					.before(dropDown)
@@ -255,14 +255,14 @@
 		//BK-15873 Quitamos la funcion getEditorStyles para que la herede de basic
 
                 changeHighBar: function () {
-                    if($('.anaya-navbar').length>0 && $('.navbar').length>0){
-                        blink.theme.setTopByHeight('.navbar', '.anaya-navbar');
+                    if($('.anaya_actividades_demo-navbar').length>0 && $('.navbar').length>0){
+                        blink.theme.setTopByHeight('.navbar', '.anaya_actividades_demo-navbar');
                     }
                 }
 	};
 
 	AnayaStyle.prototype = _.extend({}, new blink.theme.styles.basic(), AnayaStyle.prototype);
 
-	blink.theme.styles.anaya = AnayaStyle;
+	blink.theme.styles.anaya_actividades_demo = AnayaStyle;
 
 })( blink );
