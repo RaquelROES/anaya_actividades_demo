@@ -1028,9 +1028,11 @@
 
 
 .btn-primary:hover{
-    color: transparent;
-    background-color: transparent;
-    border-color: transparent;
+    background-color: #005ea8;
+}
+
+.btn-primary{
+    background-color: #005ea8;
 }
 
 .foro_wiki_cke_text ul li:before, .texto_curso ul li:before, .workspace:not(.test) ul li ul li:before, .cke_contents ul li:before, .preview ul li:before, .classify-item ul li:before {
