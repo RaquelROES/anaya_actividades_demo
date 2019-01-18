@@ -994,6 +994,14 @@
     margin-left: 45px;
 }
 
+.btn-primary[disabled] {
+    color: transparent;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+
+
 
 @media screen and (max-width: 1099px) {
 	.body_clase,
