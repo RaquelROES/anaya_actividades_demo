@@ -212,6 +212,7 @@
 		width: 100%;
 		left: 0;
 		z-index: 100;
+		height: 55px;
 	}
 
 	.is_app.content_type_clase_anaya_actividades_demo .anaya_actividades_demo-navbar {
@@ -220,6 +221,7 @@
 	}
 
 	#top-navigator {
+		display: none;
 		height: 55px;
 		overflow: hidden;
 		position: relative;
@@ -295,7 +297,7 @@
 
 
 	.content_type_clase_anaya_actividades_demo .anaya_actividades_demo-navbar .dropdown {
-		display: block;
+		display: none;
 		float: left;
 		margin-top: 10px;
 	}
