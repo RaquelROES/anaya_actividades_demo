@@ -773,7 +773,7 @@
 	.content ol > li:before {
 		content: counter(ol-counter) ". ";
 		counter-increment: ol-counter;
-		color: #f57215;
+		color: #005ea8;
 		font-weight: bold;
 		font-size: 2.3rem;
 		width: 40px;
@@ -789,7 +789,7 @@
 
 	.content ol[start]:before,
 	.content ol[data-start-expression]:before {
-		color: #f57215;
+		color: #005ea8;
 		font-weight: bold;
 		font-size: 2.3rem;
 		margin-left: -20px;
