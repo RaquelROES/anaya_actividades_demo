@@ -598,7 +598,7 @@
 
 	.table2 tr:first-of-type td,
 	.table2 td:first-of-type {
-		background-color: rgba(122, 172, 57, .8);
+		background-color: #005ea8;
 		color: #FFF;
 		font-weight: bold;
 		padding: 5px;
@@ -693,7 +693,7 @@
 	}
 
 	.table3 td:first-of-type {
-		background-color: rgba(122, 172, 57, .8);
+		background-color: #005ea8;
 		color: #FFF;
 		font-weight: bold;
 		padding: 5px;
@@ -1128,5 +1128,4 @@
     #actividad .carousel-inner .item-container {
 		padding: 40px 20px 90px;
 	}
-
 }
