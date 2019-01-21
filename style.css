@@ -538,7 +538,6 @@
 	.table1[data-color="dark-blue"] tr:first-of-type td {
 		background-color:#005ea8;
 
-
 	.table1[data-color="fucsia"] {
 		border: 1px solid #EF5BA1;
 	}
@@ -599,28 +598,28 @@
 
 	.table2 tr:first-of-type td,
 	.table2 td:first-of-type {
-		background-color: #005ea8;
+		background-color: rgba(122, 172, 57, .8);
 		color: #FFF;
 		font-weight: bold;
 		padding: 5px;
 	}
 
 	.table2[data-color="light-blue"] td {
-		border: 1px solid #005ea8;
+		border: 1px solid rgb(87,208,244);
 	}
 
 	.table2[data-color="light-blue"] tr:first-of-type td,
 	.table2[data-color="light-blue"] td:first-of-type {
-		background-color: #005ea8;
+		background-color: rgb(116,208,246);
 	}
 
 	.table2[data-color="dark-blue"] td {
-		border: 1px solid #005ea8;
+		border: 1px solid rgb(0,137,207);
 	}
 
 	.table2[data-color="dark-blue"] tr:first-of-type td,
 	.table2[data-color="dark-blue"] td:first-of-type {
-		background-color: #005ea8;
+		background-color: rgb(91,172,223);
 	}
 
 	.table2[data-color="fucsia"] td {
@@ -694,26 +693,26 @@
 	}
 
 	.table3 td:first-of-type {
-		background-color: #005ea8;
+		background-color: rgba(122, 172, 57, .8);
 		color: #FFF;
 		font-weight: bold;
 		padding: 5px;
 	}
 
 	.table3[data-color="light-blue"] td {
-		border: 1px solid #005ea8;
+		border: 1px solid rgb(87,208,244);
 	}
 
 	.table3[data-color="light-blue"] td:first-of-type {
-		background-color: #005ea8;
+		background-color: rgb(116,208,246);
 	}
 
 	.table3[data-color="dark-blue"] td {
-		border: 1px solid #005ea8;
+		border: 1px solid rgb(0,137,207);
 	}
 
 	.table3[data-color="dark-blue"] td:first-of-type {
-		background-color: #005ea8;
+		background-color: rgb(91,172,223);
 	}
 
 	.table3[data-color="fucsia"] td {
