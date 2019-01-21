@@ -596,13 +596,12 @@
 		border: 1px solid #005ea8;
 	}
 
-	.table2 tr:first-of-type td,
-	.table2 td:first-of-type {
-		background-color: #005ea8;
-		color: #FFF;
-		font-weight: bold;
-		padding: 5px;
-	}
+.table2 tr:first-of-type td, .table2 td:first-of-type {
+    background-color: #005ea8;
+    color: #FFF;
+    font-weight: bold;
+    padding: 5px;
+}
 
 	.table2[data-color="light-blue"] td {
 		border: 1px solid rgb(87,208,244);
@@ -689,15 +688,15 @@
 	}
 
 	.table3 td {
-		border: 1px solid #005ea8;
-	}
+    border: 1px solid #005ea8;
+    }
 
 	.table3 td:first-of-type {
-		background-color: #005ea8;
-		color: #FFF;
-		font-weight: bold;
-		padding: 5px;
-	}
+    background-color: #005ea8;
+    color: #FFF;
+    font-weight: bold;
+    padding: 5px;
+}
 
 	.table3[data-color="light-blue"] td {
 		border: 1px solid rgb(87,208,244);
