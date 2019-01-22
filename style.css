@@ -903,7 +903,7 @@
 
 
 
-/**propio del estilo**/
+/**propio del estilo anaya actividades**/
 
 #actividad .class_slide .review {
     margin-top: 40px;
@@ -1065,6 +1065,16 @@
     background-image: url(https://raw.githubusercontent.com/RaquelROES/anaya_actividades_demo/master/images/1_corregir.png);
     box-shadow: none;
 }
+
+.form-group{
+    background-color: #005ea8 !important;
+}
+
+.btnaudiorecorder{
+   background-color: #005ea8 !important;
+}
+
+
 
 @media screen and (max-width: 1099px) {
 	.body_clase,
